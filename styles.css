@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url("./fonts/Century Gothic/centurygothic.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans";
+}
+
+a {
+    font-family: "Century Gothic";
+}
+
+body {
+    font-family: "Raleway";
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #10ac84;
+    color: #eee;
+}
+
+/* Nav */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 12px;
+    background-color: #576574;
+    max-height: 60px;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    border-bottom: 2px solid #eee;
+    transition: all 0.2s ease;
+}
+
+main {
+    padding: 30px;
+    text-align: justify;
+}
+
